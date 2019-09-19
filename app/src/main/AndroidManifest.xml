@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".simulasi"></activity>
+        <activity android:name=".tentang"></activity>
+        <activity android:name=".saran" />
+        <activity android:name=".ikon2" />
+        <activity android:name=".ikon1" />
+        <activity android:name=".profil" />
+        <activity android:name=".nilai" />
+        <activity android:name=".cuaca" />
+        <activity android:name=".simulasi" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

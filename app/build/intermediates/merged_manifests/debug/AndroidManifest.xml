@@ -16,7 +16,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name="com.example.tugas01.tentang" />
+        <activity android:name="com.example.tugas01.saran" />
+        <activity android:name="com.example.tugas01.ikon2" />
+        <activity android:name="com.example.tugas01.ikon1" />
+        <activity android:name="com.example.tugas01.profil" />
+        <activity android:name="com.example.tugas01.nilai" />
+        <activity android:name="com.example.tugas01.cuaca" />
         <activity android:name="com.example.tugas01.simulasi" />
         <activity android:name="com.example.tugas01.MainActivity" >
             <intent-filter>

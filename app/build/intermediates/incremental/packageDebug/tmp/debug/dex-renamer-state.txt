@@ -1,4 +1,4 @@
-#Wed Sep 18 21:33:17 ICT 2019
+#Thu Sep 19 21:46:31 ICT 2019
 base.0=D\:\\Kuliah\\SisfoRupa\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
