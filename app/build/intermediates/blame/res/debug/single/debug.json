@@ -392,6 +392,10 @@
         "source": "D:\\Kuliah\\SisfoRupa\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\Kuliah\\SisfoRupa\\app\\build\\intermediates\\res\\merged\\debug\\drawable_telpon.png.flat",
+        "source": "D:\\Kuliah\\SisfoRupa\\app\\src\\main\\res\\drawable\\telpon.png"
+    },
+    {
         "merged": "D:\\Kuliah\\SisfoRupa\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Aliq\\.gradle\\caches\\transforms-2\\files-2.1\\37ec02f661e3547c5499ecdfd9f3cd1f\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
@@ -1754,6 +1758,10 @@
     {
         "merged": "D:\\Kuliah\\SisfoRupa\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\Aliq\\.gradle\\caches\\transforms-2\\files-2.1\\c527b78844be871c44103f6f45a963fb\\core-1.1.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\Kuliah\\SisfoRupa\\app\\build\\intermediates\\res\\merged\\debug\\drawable_map.png.flat",
+        "source": "D:\\Kuliah\\SisfoRupa\\app\\src\\main\\res\\drawable\\map.png"
     },
     {
         "merged": "D:\\Kuliah\\SisfoRupa\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",

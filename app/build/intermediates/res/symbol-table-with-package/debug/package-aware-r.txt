@@ -671,6 +671,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ikon1
 drawable ikon2
+drawable map
 drawable nilai
 drawable notification_action_background
 drawable notification_bg
@@ -689,6 +690,7 @@ drawable profil1
 drawable profil2
 drawable saran
 drawable snilai
+drawable telpon
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable weather
@@ -760,8 +762,6 @@ id blocking
 id bottom
 id btnCuaca
 id btnHitung
-id btnIkon1
-id btnIkon2
 id btnNilai
 id btnProfil
 id btnSaran

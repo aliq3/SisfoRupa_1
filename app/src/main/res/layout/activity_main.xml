@@ -152,17 +152,17 @@
         android:orientation="horizontal"
         android:paddingTop="30dp">
         <LinearLayout
-            android:id="@+id/btnIkon1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:onClick="telponNomor">
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:scaleType="fitCenter"
                 android:layout_gravity="top|center_horizontal"
-                android:src="@drawable/ikon1" />
+                android:src="@drawable/telpon" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -171,17 +171,17 @@
                 android:text="@string/ikon1" />
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/btnIkon2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:onClick="map">
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:scaleType="fitCenter"
                 android:layout_gravity="top|center_horizontal"
-                android:src="@drawable/ikon2" />
+                android:src="@drawable/map" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

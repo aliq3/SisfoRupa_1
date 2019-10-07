@@ -3,6 +3,7 @@ package com.example.tugas01;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -55,24 +56,25 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnIkon1 = (LinearLayout) findViewById(R.id.btnIkon1);
 
-        btnIkon1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent ikon1N = new Intent(MainActivity.this,ikon1.class);
-                startActivity(ikon1N);
-            }
-        });
-        btnIkon2 = (LinearLayout) findViewById(R.id.btnIkon2);
+        //btnIkon1 = (LinearLayout) findViewById(R.id.btnIkon1);
 
-        btnIkon2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent ikon2N = new Intent(MainActivity.this,ikon2.class);
-                startActivity(ikon2N);
-            }
-        });
+        //btnIkon1.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            //public void onClick(View view) {
+                //Intent ikon1N = new Intent(MainActivity.this,ikon1.class);
+                //startActivity(ikon1N);
+            //}
+        //});
+        //btnIkon2 = (LinearLayout) findViewById(R.id.btnIkon2);
+
+        //btnIkon2.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            //public void onClick(View view) {
+                //Intent ikon2N = new Intent(MainActivity.this,ikon2.class);
+                //startActivity(ikon2N);
+            //}
+        //});
         btnSaran = (LinearLayout) findViewById(R.id.btnSaran);
 
         btnSaran.setOnClickListener(new View.OnClickListener() {
@@ -91,5 +93,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(tentangN);
             }
         });
+    }
+
+    public  void map(View view){
+        Uri gmmIntentUri = Uri.parse("geo:0,0?q=-0.056777,109.344883");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+        mapIntent.setPackage("com.google.android.apps.maps");
+        if (mapIntent.resolveActivity(getPackageManager()) != null) {
+            startActivity(mapIntent);
+        }
+
+    }
+
+    public void telponNomor(View view){
+        Uri uri = Uri.parse("tel:0895701992393");
+        Intent it = new Intent(Intent.ACTION_DIAL, uri);
+        startActivity(it);
     }
 }
